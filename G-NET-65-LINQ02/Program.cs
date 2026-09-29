@@ -222,6 +222,21 @@ Console.WriteLine(firstProduct.ProductName);
              
              */
             #endregion
+            #region Q17
+            /*
+             
+            Product expensiveProduct = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+if (expensiveProduct != null)
+{
+    Console.WriteLine(expensiveProduct.ProductName);
+}
+else
+{
+    Console.WriteLine("No product found with price > 500.");
+}
+             */
+            #endregion
         }
     }
 }
