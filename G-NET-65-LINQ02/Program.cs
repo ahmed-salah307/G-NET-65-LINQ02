@@ -200,6 +200,19 @@ foreach (var country in result)
              */
 
             #endregion
+            #region Q15
+            /*
+             
+             Dictionary<int, Product> productDict = ProductList.ToDictionary(p => p.ProductID);
+
+if (productDict.ContainsKey(18))
+{
+    Product p = productDict[18];
+    Console.WriteLine($"Found: {p.ProductName}, Price: {p.UnitPrice}");
+}
+             
+             */
+            #endregion
         }
     }
 }
