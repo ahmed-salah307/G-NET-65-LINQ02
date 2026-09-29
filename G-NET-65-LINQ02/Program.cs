@@ -58,6 +58,18 @@ Console.WriteLine($"Are all Seafood products in stock? {allInStock}");
              
              */
             #endregion
+            #region Q5
+
+            /*
+             
+             int[] ids = { 3, 9, 13, 18 };
+
+bool containsNine = ids.Contains(9);
+
+Console.WriteLine($"Contains 9: {containsNine}");
+             */
+
+            #endregion
         }
     }
 }
