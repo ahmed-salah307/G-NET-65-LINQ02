@@ -33,6 +33,20 @@ foreach (var p in page2Products)
              
              */
             #endregion
+            #region Q3
+            /*
+             
+            var cheapProducts = ProductList
+    .OrderBy(p => p.UnitPrice)
+    .TakeWhile(p => p.UnitPrice < 25);
+
+foreach (var p in cheapProducts)
+{
+    Console.WriteLine($"Name: {p.ProductName}, Price: {p.UnitPrice}");
+}
+             
+             */
+            #endregion
         }
     }
 }
