@@ -82,6 +82,28 @@ foreach (var group in productGroups)
              */
 
             #endregion
+            #region Q7
+
+            /*
+             
+             var categoryNames = ProductList
+    .GroupBy(p => p.Category)
+    .Select(g => new {
+        Category = g.Key,
+        ProductNames = g.Select(p => p.ProductName)
+    });
+
+foreach (var item in categoryNames)
+{
+    Console.WriteLine($"Category: {item.Category}");
+    foreach (var name in item.ProductNames)
+    {
+        Console.WriteLine($"  - {name}");
+    }
+}
+             */
+
+            #endregion
         }
     }
 }
