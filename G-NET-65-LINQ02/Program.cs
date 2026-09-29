@@ -154,6 +154,21 @@ Console.WriteLine($"Cheapest: {cheapestPrice}, Most Expensive: {mostExpensivePri
              
              */
             #endregion
+            #region Q12
+
+            /*
+             
+             var categories = ProductList
+    .Select(p => p.Category)
+    .Distinct();
+
+foreach (var cat in categories)
+{
+    Console.WriteLine(cat);
+}
+             
+             */
+            #endregion
         }
     }
 }
