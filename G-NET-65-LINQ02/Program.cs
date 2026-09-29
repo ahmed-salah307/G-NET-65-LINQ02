@@ -262,6 +262,21 @@ foreach (var num in evenNumbers)
              
              */
             #endregion
+            #region Q20
+            /*
+             
+            var combinedSequence = ProductList
+    .Take(3)
+    .Select(p => p.ProductName)
+    .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+
+foreach (var item in combinedSequence)
+{
+    Console.WriteLine(item);
+}
+             
+             */
+            #endregion
         }
     }
 }
