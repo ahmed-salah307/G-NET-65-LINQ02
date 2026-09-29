@@ -136,7 +136,9 @@ foreach (var cat in categoriesWithManyProducts)
             #region Q10
             /*
              
-             
+             int totalUnits = ProductList.Sum(p => p.UnitsInStock);
+
+Console.WriteLine($"Total Units in Stock: {totalUnits}");
              
              */
             #endregion
