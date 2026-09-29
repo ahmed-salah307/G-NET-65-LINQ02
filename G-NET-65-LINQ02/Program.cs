@@ -277,6 +277,23 @@ foreach (var item in combinedSequence)
              
              */
             #endregion
+            #region Q21
+            /*
+             
+             
+             
+             var zippedPairs = ProductList
+    .Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+
+foreach (var pair in zippedPairs)
+{
+    Console.WriteLine(pair);
+}
+             
+             */
+
+
+            #endregion
         }
     }
 }
