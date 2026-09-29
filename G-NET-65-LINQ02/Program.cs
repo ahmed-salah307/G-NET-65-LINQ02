@@ -47,6 +47,17 @@ foreach (var p in cheapProducts)
              
              */
             #endregion
+            #region Q4
+            /*
+             
+             bool allInStock = ProductList
+    .Where(p => p.Category == "Seafood")
+    .All(p => p.UnitsInStock > 0);
+
+Console.WriteLine($"Are all Seafood products in stock? {allInStock}");
+             
+             */
+            #endregion
         }
     }
 }
