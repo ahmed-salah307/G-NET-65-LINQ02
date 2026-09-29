@@ -120,6 +120,19 @@ foreach (var cat in categoriesWithManyProducts)
              */
 
             #endregion
+            #region Q9
+            /*
+             
+             var customerGroups = from c in CustomerList
+                     group c by c.Country into g
+                     select new {
+                         Country = g.Key,
+                         Count = g.Count(),
+                         TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total)) // بافتراض وجود هيكل مشابه للطلبات والقيم
+                     };
+             
+             */
+            #endregion
         }
     }
 }
