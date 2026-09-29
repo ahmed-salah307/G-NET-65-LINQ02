@@ -128,8 +128,15 @@ foreach (var cat in categoriesWithManyProducts)
                      select new {
                          Country = g.Key,
                          Count = g.Count(),
-                         TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total)) // بافتراض وجود هيكل مشابه للطلبات والقيم
+                         TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total)) 
                      };
+             
+             */
+            #endregion
+            #region Q10
+            /*
+             
+             
              
              */
             #endregion
