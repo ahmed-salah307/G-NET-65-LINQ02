@@ -213,6 +213,15 @@ if (productDict.ContainsKey(18))
              
              */
             #endregion
+            #region Q16
+            /*
+             
+            Product firstProduct = ProductList.First(p => p.UnitPrice > 50);
+
+Console.WriteLine(firstProduct.ProductName);
+             
+             */
+            #endregion
         }
     }
 }
