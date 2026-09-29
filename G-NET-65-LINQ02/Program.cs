@@ -237,6 +237,19 @@ else
 }
              */
             #endregion
+            #region Q18
+            /*
+             
+             var multiplicationTable = Enumerable.Range(1, 12).Select(i => i * 7);
+
+foreach (var val in multiplicationTable)
+{
+    Console.WriteLine(val);
+}
+             
+             */
+
+            #endregion
         }
     }
 }
